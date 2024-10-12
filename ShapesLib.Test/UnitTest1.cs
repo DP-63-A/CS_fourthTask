@@ -1,20 +1,18 @@
 using NUnit.Framework;
 using ShapesLib;
 
-namespace ShapesLib.Test
+namespace ShapesLib.Test;
+public class Tests
 {
-    public class Tests
+    [SetUp]
+    public void Setup()
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
+    }
 
-        [Test]
-        public void DeboObject_ToString_ReturnsCorrectValue()
-        {
-            var obj = new DemoClass();
-            Assert.AreEqual(obj.ToString(), "I am object of demo class that defined in ShapesLib project");
-        }
+    [Test]
+    public void DemoObjectToStringReturnsCorrectValue()
+    {
+        var obj = new DemoClass();
+        Assert.AreEqual(obj.ToString(), "I am object of demo class that defined in ShapesLib project");
     }
 }

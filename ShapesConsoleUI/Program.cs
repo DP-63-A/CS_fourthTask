@@ -1,15 +1,13 @@
 ﻿using System;
 using ShapesLib;
 
-namespace ShapesEducationProject
+namespace ShapesEducationProject;
+public static class Program
 {
-    class Program
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            var obj = new DemoClass();
-            Console.WriteLine("Shapes Console UI");
-            Console.WriteLine($"{obj}");
-        }
+        var obj = new DemoClass();
+        Console.WriteLine("Shapes Console UI");
+        Console.WriteLine($"{obj}");
     }
 }

@@ -1,10 +1,9 @@
 ﻿using System;
 
-namespace ShapesLib
+namespace ShapesLib;
+public abstract class Shape
 {
-    public abstract class Shape
-    {
-        public abstract double GetArea();
-        public abstract double GetPerimeter();
-    }
+    public abstract double GetArea();
+
+    public abstract double GetPerimeter();
 }
