@@ -4,14 +4,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace ShapesUI;
-public static class Program
-{ 
+static class Program
+{
     /// <summary>
     ///  The main entry point for the application.
     /// </summary>
     [STAThread]
-    public static void Main()
+    static void Main()
     {
         Application.SetHighDpiMode(HighDpiMode.SystemAware);
         Application.EnableVisualStyles();
