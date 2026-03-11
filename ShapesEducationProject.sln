@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesLib", "ShapesLib\Shap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesLib.Test", "ShapesLib.Test\ShapesLib.Test.csproj", "{F12351BD-81BD-42BC-AF91-B5F7849FD50A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesUI", "ShapesUI\ShapesUI.csproj", "{B5C066AB-E0C6-4147-AE27-2ACC1D88C75D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
