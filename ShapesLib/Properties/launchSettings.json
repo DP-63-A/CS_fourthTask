@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ShapesLib": {
+      "commandName": "Project",
+      "commandLineArgs": "shapes.json"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "Name": "Circle",
+    "Param": "5|Red",
+    "Description": "Center at (0,0), radius 5"
+  },
+  {
+    "Name": "Circle",
+    "Param": "2,3;4|Green",
+    "Description": "Center at (2,3), radius 4"
+  },
+  {
+    "Name": "Triangle",
+    "Param": "0,0;3,0;0,4|Blue",
+    "Description": "Egypt triangle (Sides 3, 4, 5)"
+  },
+  {
+    "Name": "Square",
+    "Param": "0,0;0,2;2,2;2,0|Green",
+    "Description": "Square with size 2"
+  },
+  {
+    "Name": "Rectangle",
+    "Param": "0,0;0,3;4,3;4,0|Yellow",
+    "Description": "Rectangle with sides 3 and 4"
+  },
+  {
+    "Name": "Rhomb",
+    "Param": "0,1; 3,5; 6,1; 3,-3|Purple",
+    "Description": "Rhomb with top points on axes (diagonals 6 and 6, rotated)"
+  },
+  {
+    "Name": "Ellipse",
+    "Param": "-4,0;4,0;5|Yellow",
+    "Description": "Focuses at (-4,0) and (4,0), major semiaxis 5, minor 3"
+  },
+  {
+    "Name": "Pentagon",
+    "Param": "1,1;2,2;3,3;4,4;5,5|White",
+    "Description": "Unsupported figure (NotSupportedException)"
+  },
+  {
+    "Name": "Triangle",
+    "Param": "0,0;0,0;5,5|Black",
+    "Description": "Incorrect triangle (FormatException)"
+  },
+  {
+    "Name": "Rectangle",
+    "Param": "0,0;0,2;2,2;2,0|Red",
+    "Description": "Square who thinks he is rectangle (FormatException)"
+  }
+]

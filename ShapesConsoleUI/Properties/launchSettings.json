@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ShapesConsoleUI": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\morji\\Source\\Repos\\shapeseducationproject-int\\ShapesConsoleUI\\shapes.json"
+    }
+  }
+}
